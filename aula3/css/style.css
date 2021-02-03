@@ -1,0 +1,27 @@
+.container-paralax{
+    height: 100vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content-paralax--data{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-height{
+    height: 500px;
+}
+
+.bgimage1{
+background-image: url('../img/ghorse.jpg');
+}
+.bgimage2{
+background-image: url('../img/developer.jpg');
+}
