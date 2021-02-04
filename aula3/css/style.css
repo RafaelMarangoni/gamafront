@@ -25,3 +25,128 @@ background-image: url('../img/ghorse.jpg');
 .bgimage2{
 background-image: url('../img/developer.jpg');
 }
+
+/* Smartphone */
+
+@media screen and (max-width: 767px){
+    .container{
+        max-width: 100%;
+    }
+    .flex-wrap{
+        max-width: 100%;
+      
+    }
+
+    .content.flex{
+        display: flex;
+    }
+
+    .content-left--main{
+        display: flex;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%,0);
+        bottom: 0;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .content-top--button{
+        bottom:120px;
+    }
+
+    footer{
+        padding-bottom: 90px;
+    }
+
+    .flex-item--1, .flex-item--2, .flex-item--3{
+        padding: 20px;
+    }
+    
+}
+
+/* Tablet */
+
+@media screen and ( min-width: 791px) and (max-width: 800px){
+    .container{
+        max-width: 100%;
+
+    }
+    .content-left--main{
+        display: flex;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,0);
+        bottom: auto;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    #top{
+        padding-top: 80px;
+    }
+
+}
+
+@media screen and (min-width:280px) and (max-width:411px){
+   
+    .container{
+        max-width: 100%!important;
+        width: auto!important;
+    }
+
+    .res-footer{
+        padding: 5px!important;
+    }
+
+    .res-img{
+        margin-top: 10px!important;
+    }
+
+    .card-height{
+        height: 250px;
+    }
+
+}
+@media screen and (max-width:768px){
+    .res-img{
+       margin-top: 50px!important;
+    }
+    h1{
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width:539px) and (max-width: 550px) {
+    
+    .res-img{
+        margin-top: 30px!important;
+     }
+
+     .card-height{
+        height: 250px;
+    }
+
+    .res-footer{
+        padding: 5px!important;
+    }
+}
+
+@media screen and (min-width:790px) and (max-width:411px){
+   
+    .container{
+        max-width: 100%!important;
+        width: auto!important;
+    }
+
+    .res-footer{
+        padding: 5px!important;
+    }
+
+    .res-img{
+        margin-top: 10px!important;
+    }
+
+    .card-height{
+        height: 250px;
+    }
+
+}
