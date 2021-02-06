@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    color: white;
+    background-color: gray;
+    background-image: url(bg-fav/bck_chuck.jpg);   
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+body{
+    /* background-image: url(bg-fav/bck_chuck.jpg);    */
+}
+
+.nav-style>li {
+    list-style: none; 
+   
+       
+}
+
+.nav-style{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    /* background-color:black;
+    z-index: 1; */
+}
+
+.joke-body{
+    width: 100%;
+    position: absolute;
+	/* left: 50%;
+	top: 50%;	 */
+    /* border: solid;
+    background-color: whitesmoke; */
+   
+}
+
+.joke-body>p{
+    
+}
